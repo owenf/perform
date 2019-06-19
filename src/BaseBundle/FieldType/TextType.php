@@ -12,7 +12,6 @@ use Perform\BaseBundle\Util\StringUtil;
  *
  * Recommended doctrine field type: ``text``
  *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class TextType extends AbstractType
 {

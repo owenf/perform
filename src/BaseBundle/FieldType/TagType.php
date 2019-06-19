@@ -10,7 +10,6 @@ use Perform\BaseBundle\Entity\Tag;
 /**
  * Use the ``tag`` type for tagging entities with instances of ``Perform\BaseBundle\Entity\Tag``.
  *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class TagType extends AbstractType
 {

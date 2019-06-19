@@ -15,7 +15,6 @@ use Perform\BaseBundle\Asset\AssetContainer;
  *
  * Recommended doctrine field type: ``string``
  *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class SlugType extends AbstractType
 {

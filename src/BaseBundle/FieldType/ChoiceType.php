@@ -21,8 +21,6 @@ use Symfony\Component\Form\Extension\Core\Type\ChoiceType as ChoiceFormType;
  *     ],
  *     'sort' => false,
  * ]);
- *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class ChoiceType extends AbstractType
 {

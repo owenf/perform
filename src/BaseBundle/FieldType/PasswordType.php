@@ -6,7 +6,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType as FormType;
 
 /**
- * @author Glynn Forrest <me@glynnforrest.com>
+ *
  **/
 class PasswordType extends AbstractType
 {

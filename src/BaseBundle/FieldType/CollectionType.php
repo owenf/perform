@@ -15,7 +15,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 use Perform\BaseBundle\Crud\CrudRequest;
 
 /**
- * @author Glynn Forrest <me@glynnforrest.com>
+ *
  **/
 class CollectionType extends AbstractType
 {

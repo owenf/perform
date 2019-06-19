@@ -6,7 +6,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\Extension\Core\Type\HiddenType as FormType;
 
 /**
- * @author Glynn Forrest <me@glynnforrest.com>
+ *
  **/
 class HiddenType extends AbstractType
 {

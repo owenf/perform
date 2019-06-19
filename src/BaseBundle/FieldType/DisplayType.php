@@ -21,8 +21,6 @@ use Perform\BaseBundle\Crud\CrudRequest;
  *     'type' => 'display',
  *     'template' => 'field_type/some_property.html.twig',
  * ]);
- *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class DisplayType implements FieldTypeInterface
 {

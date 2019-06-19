@@ -7,7 +7,7 @@ use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
- * @author Glynn Forrest <me@glynnforrest.com>
+ *
  **/
 class BooleanType extends AbstractType
 {

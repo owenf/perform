@@ -8,8 +8,6 @@ use Perform\BaseBundle\Asset\AssetContainer;
 
 /**
  * Use the ``html`` type for entity properties storing html.
- *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class HtmlType extends AbstractType
 {

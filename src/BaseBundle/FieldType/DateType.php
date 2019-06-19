@@ -7,8 +7,6 @@ use Symfony\Component\Form\Extension\Core\Type\DateTimeType as FormType;
 
 /**
  * Use the ``date`` type for ``date`` doctrine fields.
- *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class DateType extends DateTimeType
 {

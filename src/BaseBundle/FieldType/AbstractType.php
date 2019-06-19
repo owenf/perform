@@ -6,9 +6,6 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\PropertyAccess\PropertyAccess;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-/**
- * @author Glynn Forrest <me@glynnforrest.com>
- **/
 abstract class AbstractType implements FieldTypeInterface
 {
     private static $propertyAccessor;

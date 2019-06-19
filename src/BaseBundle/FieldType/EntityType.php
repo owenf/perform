@@ -33,8 +33,6 @@ use Perform\BaseBundle\Crud\CrudRegistry;
  *     ],
  *     'sort' => false,
  * ]);
- *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class EntityType extends AbstractType
 {

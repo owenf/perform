@@ -6,7 +6,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
- * @author Glynn Forrest <me@glynnforrest.com>
+ *
  **/
 interface FieldTypeInterface
 {

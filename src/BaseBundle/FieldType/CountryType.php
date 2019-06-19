@@ -8,7 +8,7 @@ use Symfony\Component\Intl\Intl;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
- * @author Glynn Forrest <me@glynnforrest.com>
+ *
  **/
 class CountryType extends AbstractType
 {

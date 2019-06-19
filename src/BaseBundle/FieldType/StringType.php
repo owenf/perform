@@ -15,8 +15,6 @@ use Symfony\Component\Form\Extension\Core\Type\TextType as FormType;
  * $config->add('title', [
  *     'type' => 'string',
  * ]);
- *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class StringType extends AbstractType
 {

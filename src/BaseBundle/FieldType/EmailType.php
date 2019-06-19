@@ -7,7 +7,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\EmailType as EmailFormType;
 
 /**
- * @author Glynn Forrest <me@glynnforrest.com>
+ *
  **/
 class EmailType extends AbstractType
 {

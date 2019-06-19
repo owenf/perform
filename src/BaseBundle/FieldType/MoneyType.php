@@ -19,8 +19,6 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
  *         ]
  *     ]
  * ]);
- *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class MoneyType extends AbstractType
 {

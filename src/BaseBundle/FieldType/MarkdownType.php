@@ -12,7 +12,6 @@ use Perform\BaseBundle\Asset\AssetContainer;
  * Use the ``markdown`` type for entity properties containing markdown
  * text.
  *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class MarkdownType extends AbstractType
 {

@@ -17,8 +17,6 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
  *         'format' => DurationType::FORMAT_HUMAN,
  *     ],
  * ]);
- *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class DurationType extends AbstractType
 {

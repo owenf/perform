@@ -9,8 +9,6 @@ use Perform\BaseBundle\Form\Type\DatePickerType;
 
 /**
  * Use the ``datetime`` type for ``datetime`` doctrine fields.
- *
- * @author Glynn Forrest <me@glynnforrest.com>
  **/
 class DateTimeType extends AbstractType
 {

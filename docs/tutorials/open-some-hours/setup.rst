@@ -1,6 +1,8 @@
 Setup
 =====
 
+(Introduction here needs work - why are we doing this? eg 'To begin working on our shop management system, we need a blank page on which to build our system' or something? Just some justification?)
+
 We'll start with an empty Symfony flex application and add some Perform bundles on top.
 
 Create a new application using composer:
@@ -10,6 +12,8 @@ Create a new application using composer:
     composer create-project symfony/skeleton open-some-hours
 
 This will create the directory ``open-some-hours`` with a brand new Symfony application inside.
+
+(Ignore symfony output)
 
 Adding the Perform bundles
 --------------------------
@@ -24,6 +28,9 @@ Start with the base bundle:
    composer require perform/base-bundle
 
 This will add the perform base bundle to our application.
+
+(Checks if you want to allow contrib recipes - yes)
+(Error - Script cache:clear returned with error code 255 - missing licensing)
 
 Dev dependencies
 ~~~~~~~~~~~~~~~~
@@ -40,7 +47,8 @@ The first controller
 
 Let's create a simple page based on Perform's provided UI.
 
-Create a ``PageController`` class in the file ``src/Controller/PageController.php``:
+(Make the new file)(Create a ``PageController`` class in the file ``src/Controller/PageController.php``:)
+(Make it where? How?)
 
 .. code-block:: php
 
@@ -65,6 +73,7 @@ Create a ``PageController`` class in the file ``src/Controller/PageController.ph
 
 
 And a template extending Perform's base template:
+(Where does this go?)
 
 .. code-block:: html+twig
 
@@ -97,6 +106,7 @@ These source files need to be compiled before they can work in the browser.
 Fortunately, the dev bundle has commands to set this up for us.
 
 Run the ``perform-dev:create:asset-config`` command:
+(Repetition? Necessary?)
 
 .. code-block:: bash
 
@@ -150,9 +160,11 @@ Install the requirements with ``npm`` or ``yarn``, then tell webpack to build th
 
 .. code-block:: bash
 
-   npm install # or 'yarn'
+   npm install 
+   # or 'yarn'
    npm run build
 
+(Found vulnerabilities, suggesting npm audit?)
 The resulting assets files will be placed in the ``public/`` directory.
 
 Refresh the page http://localhost:8000. Hooray, it works!
@@ -179,3 +191,5 @@ Save your work
    * ``public/fonts``, ``public/*.js``, ``public/*.css``, ``public/*.map`` - built asset files
 
    Instead, make sure they are present in the VCS 'ignore' file, e.g. ``.gitignore``.
+
+   (Take it you're assuming people are comfortable with how they do this? They should probably be if they're working with perform)
